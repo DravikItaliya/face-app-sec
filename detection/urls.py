@@ -5,5 +5,5 @@ from detection import views
 
 urlpatterns = [
     path('', views.home, name='index'),
-    path('facecam_feed', views.facecam_feed, name='facecam_feed'),
+    # path('facecam_feed', views.facecam_feed, name='facecam_feed'),
 ]
